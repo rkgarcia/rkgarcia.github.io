@@ -1,0 +1,33 @@
+baseURL = 'https://rkgarcia.github.io/'
+languageCode = 'en-us'
+title = 'rkgarcia'
+theme="gokarna"
+
+[menu]
+  [[menu.main]]
+    # Display name
+    name = "Posts"
+
+    # Relative URL slug (appended to baseURL)
+    url = "/posts/"
+
+    # Lower weights are listed first in the menu (leftmost); higher weights are
+    # listed last in the menu (rightmost)
+    weight = 1
+
+[params]
+  metaKeywords = ["blog", "rkgarcia", "tech", "golang", "software", "development", "code"]
+  avatarAltText = "avatar"
+  avatarSize = "size-m"
+  avatarURL = "/images/avatar.png"
+  description = "Software Developer"
+  showBackToTopButton = true
+  numberPostsOnHomePage = 4
+  showPostsOnHomePage = "recent"
+  enableRobotsTXT = true
+  displayReadingTime = false
+  togglePreviousAndNextButtons = false
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
