@@ -9,7 +9,7 @@ title: "The journey start!"
 type: "post"
 ---
 
-Today I'll start a journey as a persond and developer, before this I want to deep in the motivation behind my blog, this will be a practice to improve my english writing skills, because is the most used language in our working environment.
+Today I'll start a journey as a person~~d~~ and developer, before this I want to deep in the motivation behind my blog, this will be a practice to improve my english writing skills, because is the most used language in our working environment.
 
 Sometimes as mexicans we want to speak, write and listen as native americans, but that never happens, with this in mind, this blog is for me and to receive feedback from others and of course from our fellow hater (ourselve).
 

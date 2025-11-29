@@ -5,18 +5,39 @@ theme="gokarna"
 
 [menu]
   [[menu.main]]
-    # Display name
-    name = "Posts"
-
-    # Relative URL slug (appended to baseURL)
-    url = "/posts/"
-
-    # Lower weights are listed first in the menu (leftmost); higher weights are
-    # listed last in the menu (rightmost)
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
     weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "<span data-feather='book'></span>"
+    url = "/posts/"
+    weight = 2
+
+#  [[menu.main]]
+#    name = "Projects"
+#    pre = "<span data-feather='code'></span>"
+#    url = "/projects/"
+#    weight = 3
+
+  [[menu.main]]
+    name = "Tags"
+    pre = "<span data-feather='tag'></span>"
+    url = "/tags/"
+    weight = 4
+
+  [[menu.main]]
+    name = "About"
+    pre = "<span data-feather='user'></span>"
+    url = "/about/"
+    weight = 5
+
 
 [params]
   metaKeywords = ["blog", "rkgarcia", "tech", "golang", "software", "development", "code"]
+  accentColor = "#00ad09ff"
   avatarAltText = "avatar"
   avatarSize = "size-m"
   avatarURL = "/images/avatar.png"
@@ -27,6 +48,15 @@ theme="gokarna"
   enableRobotsTXT = true
   displayReadingTime = false
   togglePreviousAndNextButtons = false
+  socialIcons = [
+    {name = "github", url = "https://github.com/rkgarcia"},
+    {name = "twitter", url = "https://x.com/rkgarcia"},
+    {name = "facebook", url = "https://www.facebook.com/rkgarcia"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/rkgarcia/"},
+    {name = "instagram", url = "https://www.instagram.com/rkgarcia_mx"},
+    {name = "email", url = "mailto:rkgarcia.mx@gmail.com"}
+  ]
+  footer = "Always keep moving forward!"
 
 [caches]
   [caches.images]
