@@ -46,8 +46,8 @@ theme="gokarna"
   numberPostsOnHomePage = 4
   showPostsOnHomePage = "recent"
   enableRobotsTXT = true
-  displayReadingTime = false
-  togglePreviousAndNextButtons = false
+  displayReadingTime = true
+  togglePreviousAndNextButtons = true
   socialIcons = [
     {name = "github", url = "https://github.com/rkgarcia"},
     {name = "twitter", url = "https://x.com/rkgarcia"},
